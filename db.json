@@ -1,0 +1,504 @@
+{
+  "emails": [
+    {
+      "id": 1,
+      "user": "user1@example.com",
+      "subject": "Welcome to our service",
+      "content": "Thank you for signing up for our service.",
+      "tag": "Welcome",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-15T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "user": "user2@example.com",
+      "subject": "Your invoice is ready",
+      "content": "Please find attached your invoice for this month.",
+      "tag": "Invoice",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-15T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "user": "user3@example.com",
+      "subject": "Meeting Reminder",
+      "content": "Don't forget about our meeting tomorrow at 10 AM.",
+      "tag": "Reminder",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-15T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "user": "user4@example.com",
+      "subject": "Project Update",
+      "content": "The project is on track and will be completed by the end of the month.",
+      "tag": "Project",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-15T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "user": "user5@example.com",
+      "subject": "Newsletter",
+      "content": "Welcome to our monthly newsletter!",
+      "tag": "Newsletter",
+      "favorite": false,
+      "read_state": true,
+      "horary": "2023-07-15T12:00:00Z"
+    },
+    {
+      "id": 6,
+      "user": "user6@example.com",
+      "subject": "Security Alert",
+      "content": "We detected a login attempt from an unknown device.",
+      "tag": "Alert",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-15T13:00:00Z"
+    },
+    {
+      "id": 7,
+      "user": "user7@example.com",
+      "subject": "Happy Birthday!",
+      "content": "We wish you a very happy birthday!",
+      "tag": "Greetings",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-15T14:00:00Z"
+    },
+    {
+      "id": 8,
+      "user": "user8@example.com",
+      "subject": "Account Verification",
+      "content": "Please verify your email to activate your account.",
+      "tag": "Verification",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-15T15:00:00Z"
+    },
+    {
+      "id": 9,
+      "user": "user9@example.com",
+      "subject": "Password Reset",
+      "content": "Click the link to reset your password.",
+      "tag": "Security",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-15T16:00:00Z"
+    },
+    {
+      "id": 10,
+      "user": "user10@example.com",
+      "subject": "Job Offer",
+      "content": "We are pleased to offer you the position.",
+      "tag": "Job",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-15T17:00:00Z"
+    },
+    {
+      "id": 11,
+      "user": "user11@example.com",
+      "subject": "Event Invitation",
+      "content": "You are invited to our annual event.",
+      "tag": "Event",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-15T18:00:00Z"
+    },
+    {
+      "id": 12,
+      "user": "user12@example.com",
+      "subject": "Congratulations!",
+      "content": "You have been selected for the award.",
+      "tag": "Congratulations",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-15T19:00:00Z"
+    },
+    {
+      "id": 13,
+      "user": "user13@example.com",
+      "subject": "Special Offer",
+      "content": "Get 50% off on your next purchase.",
+      "tag": "Promotion",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-15T20:00:00Z"
+    },
+    {
+      "id": 14,
+      "user": "user14@example.com",
+      "subject": "Survey Request",
+      "content": "Please take a few minutes to complete our survey.",
+      "tag": "Survey",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-15T21:00:00Z"
+    },
+    {
+      "id": 15,
+      "user": "user15@example.com",
+      "subject": "Weekly Update",
+      "content": "Here is your weekly update.",
+      "tag": "Update",
+      "favorite": false,
+      "read_state": true,
+      "horary": "2023-07-15T22:00:00Z"
+    },
+    {
+      "id": 16,
+      "user": "user16@example.com",
+      "subject": "Invitation to Connect",
+      "content": "Let's connect on LinkedIn.",
+      "tag": "Invitation",
+      "favorite": false,
+      "read_state": true,
+      "horary": "2023-07-15T23:00:00Z"
+    },
+    {
+      "id": 17,
+      "user": "user17@example.com",
+      "subject": "Product Launch",
+      "content": "We are excited to announce the launch of our new product.",
+      "tag": "Product",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-16T08:00:00Z"
+    },
+    {
+      "id": 18,
+      "user": "user18@example.com",
+      "subject": "Appointment Confirmation",
+      "content": "Your appointment has been confirmed for Monday.",
+      "tag": "Appointment",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-16T09:00:00Z"
+    },
+    {
+      "id": 19,
+      "user": "user19@example.com",
+      "subject": "Travel Itinerary",
+      "content": "Here is your travel itinerary.",
+      "tag": "Travel",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-16T10:00:00Z"
+    },
+    {
+      "id": 20,
+      "user": "user20@example.com",
+      "subject": "Order Confirmation",
+      "content": "Your order has been confirmed.",
+      "tag": "Order",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-16T11:00:00Z"
+    },
+    {
+      "id": 21,
+      "user": "user21@example.com",
+      "subject": "Shipping Notification",
+      "content": "Your order has been shipped.",
+      "tag": "Shipping",
+      "favorite": false,
+      "read_state": true,
+      "horary": "2023-07-16T12:00:00Z"
+    },
+    {
+      "id": 22,
+      "user": "user22@example.com",
+      "subject": "Feedback Request",
+      "content": "We would love to hear your feedback.",
+      "tag": "Feedback",
+      "favorite": false,
+      "read_state": true,
+      "horary": "2023-07-16T13:00:00Z"
+    },
+    {
+      "id": 23,
+      "user": "user23@example.com",
+      "subject": "Promotion Announcement",
+      "content": "Congratulations on your promotion!",
+      "tag": "Promotion",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-16T14:00:00Z"
+    },
+    {
+      "id": 24,
+      "user": "user24@example.com",
+      "subject": "Conference Invitation",
+      "content": "You are invited to our annual conference.",
+      "tag": "Conference",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-16T15:00:00Z"
+    },
+    {
+      "id": 25,
+      "user": "user25@example.com",
+      "subject": "System Update",
+      "content": "Our system will be down for maintenance tonight.",
+      "tag": "System",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-16T16:00:00Z"
+    },
+    {
+      "id": 26,
+      "user": "user26@example.com",
+      "subject": "Invoice Reminder",
+      "content": "Your invoice is due next week.",
+      "tag": "Invoice",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-16T17:00:00Z"
+    },
+    {
+      "id": 27,
+      "user": "user27@example.com",
+      "subject": "Job Application Received",
+      "content": "We have received your job application.",
+      "tag": "Job",
+      "favorite": false,
+      "read_state": true,
+      "horary": "2023-07-16T18:00:00Z"
+    },
+    {
+      "id": 28,
+      "user": "user28@example.com",
+      "subject": "Performance Review",
+      "content": "Your performance review is scheduled for next week.",
+      "tag": "Review",
+      "favorite": false,
+      "read_state": true,
+      "horary": "2023-07-16T19:00:00Z"
+    },
+    {
+      "id": 29,
+      "user": "user29@example.com",
+      "subject": "Password Change Confirmation",
+      "content": "Your password has been successfully changed.",
+      "tag": "Security",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-16T20:00:00Z"
+    },
+    {
+      "id": 30,
+      "user": "user30@example.com",
+      "subject": "Membership Renewal",
+      "content": "Your membership is due for renewal.",
+      "tag": "Membership",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-16T21:00:00Z"
+    },
+    {
+      "id": 31,
+      "user": "user31@example.com",
+      "subject": "Welcome Back!",
+      "content": "Welcome back to our service.",
+      "tag": "Welcome",
+      "favorite": false,
+      "read_state": true,
+      "horary": "2023-07-16T22:00:00Z"
+    },
+    {
+      "id": 32,
+      "user": "user32@example.com",
+      "subject": "New Feature Announcement",
+      "content": "Check out the new features in our latest update.",
+      "tag": "Feature",
+      "favorite": false,
+      "read_state": true,
+      "horary": "2023-07-16T23:00:00Z"
+    },
+    {
+      "id": 33,
+      "user": "user33@example.com",
+      "subject": "Payment Confirmation",
+      "content": "Your payment has been received.",
+      "tag": "Payment",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-17T08:00:00Z"
+    },
+    {
+      "id": 34,
+      "user": "user34@example.com",
+      "subject": "Service Outage Notification",
+      "content": "We are currently experiencing a service outage.",
+      "tag": "Outage",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-17T09:00:00Z"
+    },
+    {
+      "id": 35,
+      "user": "user35@example.com",
+      "subject": "Account Suspended",
+      "content": "Your account has been suspended due to suspicious activity.",
+      "tag": "Security",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-17T10:00:00Z"
+    },
+    {
+      "id": 36,
+      "user": "user36@example.com",
+      "subject": "New Job Opening",
+      "content": "We have a new job opening that might interest you.",
+      "tag": "Job",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-17T11:00:00Z"
+    },
+    {
+      "id": 37,
+      "user": "user37@example.com",
+      "subject": "Happy Anniversary!",
+      "content": "Congratulations on your anniversary with our company.",
+      "tag": "Anniversary",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-17T12:00:00Z"
+    },
+    {
+      "id": 38,
+      "user": "user38@example.com",
+      "subject": "Invitation to Webinar",
+      "content": "You are invited to our upcoming webinar.",
+      "tag": "Webinar",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-17T13:00:00Z"
+    },
+    {
+      "id": 39,
+      "user": "user39@example.com",
+      "subject": "Account Activated",
+      "content": "Your account has been successfully activated.",
+      "tag": "Activation",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-17T14:00:00Z"
+    },
+    {
+      "id": 40,
+      "user": "user40@example.com",
+      "subject": "Important Update",
+      "content": "Please read this important update regarding our services.",
+      "tag": "Update",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-17T15:00:00Z"
+    },
+    {
+      "id": 41,
+      "user": "user41@example.com",
+      "subject": "Service Upgrade Notification",
+      "content": "Your service plan has been upgraded.",
+      "tag": "Service",
+      "favorite": false,
+      "read_state": true,
+      "horary": "2023-07-17T16:00:00Z"
+    },
+    {
+      "id": 42,
+      "user": "user42@example.com",
+      "subject": "Account Deletion Confirmation",
+      "content": "Your account has been successfully deleted.",
+      "tag": "Account",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-17T17:00:00Z"
+    },
+    {
+      "id": 43,
+      "user": "user43@example.com",
+      "subject": "Upcoming Maintenance",
+      "content": "Our services will be down for maintenance on Friday.",
+      "tag": "Maintenance",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-17T18:00:00Z"
+    },
+    {
+      "id": 44,
+      "user": "user44@example.com",
+      "subject": "Welcome Aboard!",
+      "content": "We are excited to have you on our team.",
+      "tag": "Welcome",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-17T19:00:00Z"
+    },
+    {
+      "id": 45,
+      "user": "user45@example.com",
+      "subject": "Payment Declined",
+      "content": "Your payment has been declined. Please update your payment information.",
+      "tag": "Payment",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-17T20:00:00Z"
+    },
+    {
+      "id": 46,
+      "user": "user46@example.com",
+      "subject": "Subscription Renewal",
+      "content": "Your subscription is up for renewal.",
+      "tag": "Subscription",
+      "favorite": false,
+      "read_state": true,
+      "horary": "2023-07-17T21:00:00Z"
+    },
+    {
+      "id": 47,
+      "user": "user47@example.com",
+      "subject": "Action Required",
+      "content": "Please take action on your recent request.",
+      "tag": "Action",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-17T22:00:00Z"
+    },
+    {
+      "id": 48,
+      "user": "user48@example.com",
+      "subject": "Payment Reminder",
+      "content": "Your payment is due soon.",
+      "tag": "Payment",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-17T23:00:00Z"
+    },
+    {
+      "id": 49,
+      "user": "user49@example.com",
+      "subject": "New Comment on Your Post",
+      "content": "Someone has commented on your post.",
+      "tag": "Comment",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-18T08:00:00Z"
+    },
+    {
+      "id": 50,
+      "user": "user50@example.com",
+      "subject": "Job Interview Scheduled",
+      "content": "Your job interview has been scheduled for Monday.",
+      "tag": "Job",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-18T09:00:00Z"
+    }
+  ]
+}
