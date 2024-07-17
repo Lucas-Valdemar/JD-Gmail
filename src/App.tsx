@@ -3,12 +3,23 @@ import api from '../services/api.ts'
 
 import Sidebar from './Components/Root/Menu/Sidebar.tsx';
 import AppsSideBar from './Components/Root/Menu/AppsSideBar.tsx';
+import MenuSharpIcon from '@mui/icons-material/MenuSharp';
 
 function App() {
 
   /* Sidebar states */
-  const [sidebar, setSidebar] = useState(true)
+  const [sidebar, setSidebar] = useState(false)
   const [sidebarState, setSidebarState] = useState(false)
+
+  const handleSideBar = ()=>{
+    if(sidebarState === false) {
+      setSidebarState(true)
+      setSidebar(true)
+    } else {
+      setSidebarState(false)
+      setSidebar(false)
+    }
+  }
   
   /* Fetch Emails */
   const [emails, setEmails] = useState([])
@@ -29,12 +40,13 @@ function App() {
   console.log(emails)
 
 
+
+
   return (
     <>
       <div className='h-20 bg-slate-100 flex justify-center items-center flex-col'>
         <h2>Aqui vai o topbar, depois, vem o conteúdo</h2> 
-        <button className='bg-green-600' onClick={()=>{setSidebar(true), setSidebarState(true)}}>ativa sidebarr</button>
-        <button className='bg-red-600' onClick={()=>{setSidebar(false), setSidebarState(false)}}>desativa sidebarr</button>
+        <button onClick={()=>{handleSideBar()}}><MenuSharpIcon/></button> {/*Handle do sidebar*/}
         
       </div>
       <div className='flex flex-row justify-between h-screen '>

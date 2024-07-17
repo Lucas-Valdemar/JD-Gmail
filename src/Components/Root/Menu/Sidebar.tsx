@@ -45,7 +45,7 @@ export default function Sidebar ({sidebar, emails}) {
               idx < 10 ? 
                 <div key={idx} className='px-4 flex flex-row mt-4'>
                   <LabelSharpIcon/>
-                  <p><strong>{emails.tag}</strong></p>
+                  <p className='ml-2'><strong>{emails.tag}</strong></p>
                 </div> 
                 : 
                 '' 
