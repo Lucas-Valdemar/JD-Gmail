@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import api from '../services/api.ts'
 
 import Sidebar from './Components/Root/Menu/Sidebar.tsx';
+import Content from './Components/Content/Content.tsx';
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
 
 
   return (
-    <>
+    <div className='bg-slate-100'>
       <div className='h-20 bg-slate-100 flex justify-center items-center flex-col'>
         <h2>Aqui vai o topbar, depois, vem o conteúdo</h2> 
         <button className='bg-green-600' onClick={()=>{setSidebar(true), setSidebarState(true)}}>ativa sidebarr</button>
@@ -43,8 +44,8 @@ function App() {
         
         </div>
 
-        <div className="content bg-gray-600">
-          Aqui vem o conteúdo
+        <div className="content bg-white w-screen rounded-2xl pt-7">
+          <Content />
         </div>
 
         <div className="otherApps w-20 bg-red-600 h-full">
@@ -53,7 +54,7 @@ function App() {
       </div>
 
 
-    </>
+    </div>
   )
 }
 
