@@ -26,11 +26,6 @@ function App() {
   }, [])
   console.log(emails)
 
-  document.querySelector('.sidebar')?.addEventListener('onhover' , function(){
-    console.log('oi')
-    setSidebar(true)
-  })
-
 
   return (
     <>

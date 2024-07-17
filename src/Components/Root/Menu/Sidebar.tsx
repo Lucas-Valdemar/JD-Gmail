@@ -21,7 +21,7 @@ export default function Sidebar ({sidebar, emails}) {
       </div>
       
       <div className="menu">
-        <MenuItens name={'Inbox'} icon={<InboxSharpIcon/>} sidebar={sidebar} lenght={emails.length} />
+        <MenuItens name={'Inbox'} icon={<InboxSharpIcon/>} sidebar={sidebar} emails={emails} />
         <MenuItens name='Snoozed' icon={<AccessAlarmSharpIcon/>} sidebar={sidebar} />
         <MenuItens name='Sent' icon={<SendSharpIcon/>} sidebar={sidebar} />
         <MenuItens name='Draft' icon={<DescriptionSharpIcon/>} sidebar={sidebar} />
