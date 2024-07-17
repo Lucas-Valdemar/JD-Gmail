@@ -2,15 +2,17 @@ import React, { useEffect, useState } from 'react';
 import api from '../services/api.ts'
 
 import Sidebar from './Components/Root/Menu/Sidebar.tsx';
+import AppsSideBar from './Components/Root/Menu/AppsSideBar.tsx';
 
 function App() {
 
-  const [emails, setEmails] = useState([])
-
+  /* Sidebar states */
   const [sidebar, setSidebar] = useState(true)
   const [sidebarState, setSidebarState] = useState(false)
-
+  
   /* Fetch Emails */
+  const [emails, setEmails] = useState([])
+
   async function fetchEmails() {
     try {
       const response = await api.get('/')
@@ -47,8 +49,8 @@ function App() {
           Aqui vem o conteúdo
         </div>
 
-        <div className="otherApps w-20 bg-red-600 h-full">
-          aqui vem a barra da direita
+        <div className="otherApps w-20 bg-slate-100 h-full pt-12 px-2">
+          <AppsSideBar />
         </div>
       </div>
 
