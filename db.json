@@ -8,7 +8,8 @@
       "tag": "Welcome",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-15T08:00:00Z"
+      "horary": "2023-07-15T08:00:00Z",
+      "entry_box": "primary"
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "tag": "Invoice",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-15T09:00:00Z"
+      "horary": "2023-07-15T09:00:00Z",
+      "entry_box": "promotions"
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "tag": "Reminder",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-15T10:00:00Z"
+      "horary": "2023-07-15T10:00:00Z",
+      "entry_box": "social"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "tag": "Project",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-15T11:00:00Z"
+      "horary": "2023-07-15T11:00:00Z",
+      "entry_box": "updates"
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "tag": "Newsletter",
       "favorite": false,
       "read_state": true,
-      "horary": "2023-07-15T12:00:00Z"
+      "horary": "2023-07-15T12:00:00Z",
+      "entry_box": "forum"
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "tag": "Alert",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-15T13:00:00Z"
+      "horary": "2023-07-15T13:00:00Z",
+      "entry_box": "primary"
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
       "tag": "Greetings",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-15T14:00:00Z"
+      "horary": "2023-07-15T14:00:00Z",
+      "entry_box": "promotions"
     },
     {
       "id": 8,
@@ -78,7 +85,8 @@
       "tag": "Verification",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-15T15:00:00Z"
+      "horary": "2023-07-15T15:00:00Z",
+      "entry_box": "social"
     },
     {
       "id": 9,
@@ -88,7 +96,8 @@
       "tag": "Security",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-15T16:00:00Z"
+      "horary": "2023-07-15T16:00:00Z",
+      "entry_box": "updates"
     },
     {
       "id": 10,
@@ -98,7 +107,8 @@
       "tag": "Job",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-15T17:00:00Z"
+      "horary": "2023-07-15T17:00:00Z",
+      "entry_box": "forum"
     },
     {
       "id": 11,
@@ -108,7 +118,8 @@
       "tag": "Event",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-15T18:00:00Z"
+      "horary": "2023-07-15T18:00:00Z",
+      "entry_box": "primary"
     },
     {
       "id": 12,
@@ -118,7 +129,8 @@
       "tag": "Congratulations",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-15T19:00:00Z"
+      "horary": "2023-07-15T19:00:00Z",
+      "entry_box": "promotions"
     },
     {
       "id": 13,
@@ -128,7 +140,8 @@
       "tag": "Promotion",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-15T20:00:00Z"
+      "horary": "2023-07-15T20:00:00Z",
+      "entry_box": "social"
     },
     {
       "id": 14,
@@ -138,7 +151,8 @@
       "tag": "Survey",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-15T21:00:00Z"
+      "horary": "2023-07-15T21:00:00Z",
+      "entry_box": "updates"
     },
     {
       "id": 15,
@@ -148,7 +162,8 @@
       "tag": "Update",
       "favorite": false,
       "read_state": true,
-      "horary": "2023-07-15T22:00:00Z"
+      "horary": "2023-07-15T22:00:00Z",
+      "entry_box": "forum"
     },
     {
       "id": 16,
@@ -158,7 +173,8 @@
       "tag": "Invitation",
       "favorite": false,
       "read_state": true,
-      "horary": "2023-07-15T23:00:00Z"
+      "horary": "2023-07-15T23:00:00Z",
+      "entry_box": "primary"
     },
     {
       "id": 17,
@@ -168,7 +184,8 @@
       "tag": "Product",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-16T08:00:00Z"
+      "horary": "2023-07-16T08:00:00Z",
+      "entry_box": "promotions"
     },
     {
       "id": 18,
@@ -178,7 +195,8 @@
       "tag": "Appointment",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-16T09:00:00Z"
+      "horary": "2023-07-16T09:00:00Z",
+      "entry_box": "social"
     },
     {
       "id": 19,
@@ -188,7 +206,8 @@
       "tag": "Travel",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-16T10:00:00Z"
+      "horary": "2023-07-16T10:00:00Z",
+      "entry_box": "updates"
     },
     {
       "id": 20,
@@ -198,7 +217,8 @@
       "tag": "Order",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-16T11:00:00Z"
+      "horary": "2023-07-16T11:00:00Z",
+      "entry_box": "forum"
     },
     {
       "id": 21,
@@ -208,7 +228,8 @@
       "tag": "Shipping",
       "favorite": false,
       "read_state": true,
-      "horary": "2023-07-16T12:00:00Z"
+      "horary": "2023-07-16T12:00:00Z",
+      "entry_box": "primary"
     },
     {
       "id": 22,
@@ -218,7 +239,8 @@
       "tag": "Feedback",
       "favorite": false,
       "read_state": true,
-      "horary": "2023-07-16T13:00:00Z"
+      "horary": "2023-07-16T13:00:00Z",
+      "entry_box": "promotions"
     },
     {
       "id": 23,
@@ -228,7 +250,8 @@
       "tag": "Promotion",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-16T14:00:00Z"
+      "horary": "2023-07-16T14:00:00Z",
+      "entry_box": "social"
     },
     {
       "id": 24,
@@ -238,7 +261,8 @@
       "tag": "Conference",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-16T15:00:00Z"
+      "horary": "2023-07-16T15:00:00Z",
+      "entry_box": "updates"
     },
     {
       "id": 25,
@@ -248,7 +272,8 @@
       "tag": "System",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-16T16:00:00Z"
+      "horary": "2023-07-16T16:00:00Z",
+      "entry_box": "forum"
     },
     {
       "id": 26,
@@ -258,7 +283,8 @@
       "tag": "Invoice",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-16T17:00:00Z"
+      "horary": "2023-07-16T17:00:00Z",
+      "entry_box": "primary"
     },
     {
       "id": 27,
@@ -268,7 +294,8 @@
       "tag": "Job",
       "favorite": false,
       "read_state": true,
-      "horary": "2023-07-16T18:00:00Z"
+      "horary": "2023-07-16T18:00:00Z",
+      "entry_box": "promotions"
     },
     {
       "id": 28,
@@ -278,7 +305,8 @@
       "tag": "Review",
       "favorite": false,
       "read_state": true,
-      "horary": "2023-07-16T19:00:00Z"
+      "horary": "2023-07-16T19:00:00Z",
+      "entry_box": "social"
     },
     {
       "id": 29,
@@ -288,7 +316,8 @@
       "tag": "Security",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-16T20:00:00Z"
+      "horary": "2023-07-16T20:00:00Z",
+      "entry_box": "updates"
     },
     {
       "id": 30,
@@ -298,7 +327,8 @@
       "tag": "Membership",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-16T21:00:00Z"
+      "horary": "2023-07-16T21:00:00Z",
+      "entry_box": "forum"
     },
     {
       "id": 31,
@@ -308,7 +338,8 @@
       "tag": "Welcome",
       "favorite": false,
       "read_state": true,
-      "horary": "2023-07-16T22:00:00Z"
+      "horary": "2023-07-16T22:00:00Z",
+      "entry_box": "primary"
     },
     {
       "id": 32,
@@ -318,7 +349,8 @@
       "tag": "Feature",
       "favorite": false,
       "read_state": true,
-      "horary": "2023-07-16T23:00:00Z"
+      "horary": "2023-07-16T23:00:00Z",
+      "entry_box": "promotions"
     },
     {
       "id": 33,
@@ -328,7 +360,8 @@
       "tag": "Payment",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-17T08:00:00Z"
+      "horary": "2023-07-17T08:00:00Z",
+      "entry_box": "social"
     },
     {
       "id": 34,
@@ -338,7 +371,8 @@
       "tag": "Outage",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-17T09:00:00Z"
+      "horary": "2023-07-17T09:00:00Z",
+      "entry_box": "updates"
     },
     {
       "id": 35,
@@ -348,7 +382,8 @@
       "tag": "Security",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-17T10:00:00Z"
+      "horary": "2023-07-17T10:00:00Z",
+      "entry_box": "forum"
     },
     {
       "id": 36,
@@ -358,7 +393,8 @@
       "tag": "Job",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-17T11:00:00Z"
+      "horary": "2023-07-17T11:00:00Z",
+      "entry_box": "primary"
     },
     {
       "id": 37,
@@ -368,7 +404,8 @@
       "tag": "Anniversary",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-17T12:00:00Z"
+      "horary": "2023-07-17T12:00:00Z",
+      "entry_box": "promotions"
     },
     {
       "id": 38,
@@ -378,7 +415,8 @@
       "tag": "Webinar",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-17T13:00:00Z"
+      "horary": "2023-07-17T13:00:00Z",
+      "entry_box": "social"
     },
     {
       "id": 39,
@@ -388,7 +426,8 @@
       "tag": "Activation",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-17T14:00:00Z"
+      "horary": "2023-07-17T14:00:00Z",
+      "entry_box": "updates"
     },
     {
       "id": 40,
@@ -398,7 +437,8 @@
       "tag": "Update",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-17T15:00:00Z"
+      "horary": "2023-07-17T15:00:00Z",
+      "entry_box": "forum"
     },
     {
       "id": 41,
@@ -408,7 +448,8 @@
       "tag": "Service",
       "favorite": false,
       "read_state": true,
-      "horary": "2023-07-17T16:00:00Z"
+      "horary": "2023-07-17T16:00:00Z",
+      "entry_box": "primary"
     },
     {
       "id": 42,
@@ -418,7 +459,8 @@
       "tag": "Account",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-17T17:00:00Z"
+      "horary": "2023-07-17T17:00:00Z",
+      "entry_box": "promotions"
     },
     {
       "id": 43,
@@ -428,7 +470,8 @@
       "tag": "Maintenance",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-17T18:00:00Z"
+      "horary": "2023-07-17T18:00:00Z",
+      "entry_box": "social"
     },
     {
       "id": 44,
@@ -438,7 +481,8 @@
       "tag": "Welcome",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-17T19:00:00Z"
+      "horary": "2023-07-17T19:00:00Z",
+      "entry_box": "updates"
     },
     {
       "id": 45,
@@ -448,7 +492,8 @@
       "tag": "Payment",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-17T20:00:00Z"
+      "horary": "2023-07-17T20:00:00Z",
+      "entry_box": "forum"
     },
     {
       "id": 46,
@@ -458,7 +503,8 @@
       "tag": "Subscription",
       "favorite": false,
       "read_state": true,
-      "horary": "2023-07-17T21:00:00Z"
+      "horary": "2023-07-17T21:00:00Z",
+      "entry_box": "primary"
     },
     {
       "id": 47,
@@ -468,7 +514,8 @@
       "tag": "Action",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-17T22:00:00Z"
+      "horary": "2023-07-17T22:00:00Z",
+      "entry_box": "promotions"
     },
     {
       "id": 48,
@@ -478,7 +525,8 @@
       "tag": "Payment",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-17T23:00:00Z"
+      "horary": "2023-07-17T23:00:00Z",
+      "entry_box": "social"
     },
     {
       "id": 49,
@@ -488,7 +536,8 @@
       "tag": "Comment",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-18T08:00:00Z"
+      "horary": "2023-07-18T08:00:00Z",
+      "entry_box": "updates"
     },
     {
       "id": 50,
@@ -498,7 +547,558 @@
       "tag": "Job",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-18T09:00:00Z"
+      "horary": "2023-07-18T09:00:00Z",
+      "entry_box": "forum"
+    },
+    {
+      "id": 51,
+      "user": "user51@example.com",
+      "subject": "Team Meeting",
+      "content": "Join us for a team meeting on Friday.",
+      "tag": "Meeting",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-18T10:00:00Z",
+      "entry_box": "primary"
+    },
+    {
+      "id": 52,
+      "user": "user52@example.com",
+      "subject": "Promotional Offer",
+      "content": "Get a special discount on your next purchase.",
+      "tag": "Promotion",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-18T11:00:00Z",
+      "entry_box": "promotions"
+    },
+    {
+      "id": 53,
+      "user": "user53@example.com",
+      "subject": "Service Downtime Notification",
+      "content": "Our services will be down for maintenance this weekend.",
+      "tag": "Downtime",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-18T12:00:00Z",
+      "entry_box": "social"
+    },
+    {
+      "id": 54,
+      "user": "user54@example.com",
+      "subject": "Annual Report",
+      "content": "Please review the attached annual report.",
+      "tag": "Report",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-18T13:00:00Z",
+      "entry_box": "updates"
+    },
+    {
+      "id": 55,
+      "user": "user55@example.com",
+      "subject": "Customer Survey",
+      "content": "We value your feedback. Please take our survey.",
+      "tag": "Survey",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-18T14:00:00Z",
+      "entry_box": "forum"
+    },
+    {
+      "id": 56,
+      "user": "user56@example.com",
+      "subject": "Welcome Package",
+      "content": "Here is your welcome package with useful information.",
+      "tag": "Welcome",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-18T15:00:00Z",
+      "entry_box": "primary"
+    },
+    {
+      "id": 57,
+      "user": "user57@example.com",
+      "subject": "Account Upgrade",
+      "content": "Your account has been upgraded with new features.",
+      "tag": "Upgrade",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-18T16:00:00Z",
+      "entry_box": "promotions"
+    },
+    {
+      "id": 58,
+      "user": "user58@example.com",
+      "subject": "Security Alert",
+      "content": "Unusual activity detected on your account.",
+      "tag": "Security",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-18T17:00:00Z",
+      "entry_box": "social"
+    },
+    {
+      "id": 59,
+      "user": "user59@example.com",
+      "subject": "Holiday Announcement",
+      "content": "Our office will be closed for the holidays.",
+      "tag": "Holiday",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-18T18:00:00Z",
+      "entry_box": "updates"
+    },
+    {
+      "id": 60,
+      "user": "user60@example.com",
+      "subject": "Password Expiry Notice",
+      "content": "Your password will expire soon. Please update it.",
+      "tag": "Security",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-18T19:00:00Z",
+      "entry_box": "forum"
+    },
+    {
+      "id": 61,
+      "user": "user61@example.com",
+      "subject": "Service Improvement",
+      "content": "We have made improvements to our service.",
+      "tag": "Service",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-18T20:00:00Z",
+      "entry_box": "primary"
+    },
+    {
+      "id": 62,
+      "user": "user62@example.com",
+      "subject": "Exclusive Offer",
+      "content": "Get exclusive access to our new product.",
+      "tag": "Offer",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-18T21:00:00Z",
+      "entry_box": "promotions"
+    },
+    {
+      "id": 63,
+      "user": "user63@example.com",
+      "subject": "Meeting Agenda",
+      "content": "Here is the agenda for our upcoming meeting.",
+      "tag": "Meeting",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-18T22:00:00Z",
+      "entry_box": "social"
+    },
+    {
+      "id": 64,
+      "user": "user64@example.com",
+      "subject": "Community Guidelines",
+      "content": "Please review our updated community guidelines.",
+      "tag": "Guidelines",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-18T23:00:00Z",
+      "entry_box": "updates"
+    },
+    {
+      "id": 65,
+      "user": "user65@example.com",
+      "subject": "Technical Support",
+      "content": "Our support team is here to help you.",
+      "tag": "Support",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-19T08:00:00Z",
+      "entry_box": "forum"
+    },
+    {
+      "id": 66,
+      "user": "user66@example.com",
+      "subject": "Billing Issue",
+      "content": "There is an issue with your billing information.",
+      "tag": "Billing",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-19T09:00:00Z",
+      "entry_box": "primary"
+    },
+    {
+      "id": 67,
+      "user": "user67@example.com",
+      "subject": "Conference Call",
+      "content": "Join us for a conference call on Monday.",
+      "tag": "Call",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-19T10:00:00Z",
+      "entry_box": "promotions"
+    },
+    {
+      "id": 68,
+      "user": "user68@example.com",
+      "subject": "Special Announcement",
+      "content": "We have a special announcement to share.",
+      "tag": "Announcement",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-19T11:00:00Z",
+      "entry_box": "social"
+    },
+    {
+      "id": 69,
+      "user": "user69@example.com",
+      "subject": "New Policy Update",
+      "content": "Please review our new policy update.",
+      "tag": "Policy",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-19T12:00:00Z",
+      "entry_box": "updates"
+    },
+    {
+      "id": 70,
+      "user": "user70@example.com",
+      "subject": "Career Opportunities",
+      "content": "Explore new career opportunities with us.",
+      "tag": "Career",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-19T13:00:00Z",
+      "entry_box": "forum"
+    },
+    {
+      "id": 71,
+      "user": "user71@example.com",
+      "subject": "Payment Due Notice",
+      "content": "Your payment is due next week.",
+      "tag": "Payment",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-19T14:00:00Z",
+      "entry_box": "primary"
+    },
+    {
+      "id": 72,
+      "user": "user72@example.com",
+      "subject": "Happy Holidays!",
+      "content": "We wish you happy holidays!",
+      "tag": "Holidays",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-19T15:00:00Z",
+      "entry_box": "promotions"
+    },
+    {
+      "id": 73,
+      "user": "user73@example.com",
+      "subject": "System Maintenance",
+      "content": "Our system will be down for maintenance on Friday.",
+      "tag": "Maintenance",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-19T16:00:00Z",
+      "entry_box": "social"
+    },
+    {
+      "id": 74,
+      "user": "user74@example.com",
+      "subject": "Service Update",
+      "content": "We have updated our service offerings.",
+      "tag": "Service",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-19T17:00:00Z",
+      "entry_box": "updates"
+    },
+    {
+      "id": 75,
+      "user": "user75@example.com",
+      "subject": "Event Invitation",
+      "content": "Join us for our annual event.",
+      "tag": "Event",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-19T18:00:00Z",
+      "entry_box": "forum"
+    },
+    {
+      "id": 76,
+      "user": "user76@example.com",
+      "subject": "Login Alert",
+      "content": "New login detected on your account.",
+      "tag": "Security",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-19T19:00:00Z",
+      "entry_box": "primary"
+    },
+    {
+      "id": 77,
+      "user": "user77@example.com",
+      "subject": "Account Notice",
+      "content": "Please review your account information.",
+      "tag": "Account",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-19T20:00:00Z",
+      "entry_box": "promotions"
+    },
+    {
+      "id": 78,
+      "user": "user78@example.com",
+      "subject": "Important Security Notice",
+      "content": "Please update your security settings.",
+      "tag": "Security",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-19T21:00:00Z",
+      "entry_box": "social"
+    },
+    {
+      "id": 79,
+      "user": "user79@example.com",
+      "subject": "Newsletter Subscription",
+      "content": "Thank you for subscribing to our newsletter.",
+      "tag": "Newsletter",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-19T22:00:00Z",
+      "entry_box": "updates"
+    },
+    {
+      "id": 80,
+      "user": "user80@example.com",
+      "subject": "Service Notification",
+      "content": "We have an important service notification for you.",
+      "tag": "Service",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-19T23:00:00Z",
+      "entry_box": "forum"
+    },
+    {
+      "id": 81,
+      "user": "user81@example.com",
+      "subject": "Promotional Offer",
+      "content": "Enjoy a special discount on your next purchase.",
+      "tag": "Promotion",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-20T08:00:00Z",
+      "entry_box": "primary"
+    },
+    {
+      "id": 82,
+      "user": "user82@example.com",
+      "subject": "New Course Available",
+      "content": "Check out our new course on data science.",
+      "tag": "Course",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-20T09:00:00Z",
+      "entry_box": "promotions"
+    },
+    {
+      "id": 83,
+      "user": "user83@example.com",
+      "subject": "Meeting Rescheduled",
+      "content": "Our meeting has been rescheduled to Tuesday.",
+      "tag": "Meeting",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-20T10:00:00Z",
+      "entry_box": "social"
+    },
+    {
+      "id": 84,
+      "user": "user84@example.com",
+      "subject": "Billing Reminder",
+      "content": "Your bill is due next week.",
+      "tag": "Billing",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-20T11:00:00Z",
+      "entry_box": "updates"
+    },
+    {
+      "id": 85,
+      "user": "user85@example.com",
+      "subject": "Job Opportunity",
+      "content": "We have a new job opportunity for you.",
+      "tag": "Job",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-20T12:00:00Z",
+      "entry_box": "forum"
+    },
+    {
+      "id": 86,
+      "user": "user86@example.com",
+      "subject": "Account Verification",
+      "content": "Please verify your account details.",
+      "tag": "Verification",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-20T13:00:00Z",
+      "entry_box": "primary"
+    },
+    {
+      "id": 87,
+      "user": "user87@example.com",
+      "subject": "Customer Feedback",
+      "content": "We would love to hear your feedback.",
+      "tag": "Feedback",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-20T14:00:00Z",
+      "entry_box": "promotions"
+    },
+    {
+      "id": 88,
+      "user": "user88@example.com",
+      "subject": "Product Review",
+      "content": "Please review your recent purchase.",
+      "tag": "Review",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-20T15:00:00Z",
+      "entry_box": "social"
+    },
+    {
+      "id": 89,
+      "user": "user89@example.com",
+      "subject": "Security Update",
+      "content": "Please update your security settings.",
+      "tag": "Security",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-20T16:00:00Z",
+      "entry_box": "updates"
+    },
+    {
+      "id": 90,
+      "user": "user90@example.com",
+      "subject": "Welcome to Our Community",
+      "content": "We are glad to have you in our community.",
+      "tag": "Community",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-20T17:00:00Z",
+      "entry_box": "forum"
+    },
+    {
+      "id": 91,
+      "user": "user91@example.com",
+      "subject": "Account Notification",
+      "content": "Please review your account settings.",
+      "tag": "Account",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-20T18:00:00Z",
+      "entry_box": "primary"
+    },
+    {
+      "id": 92,
+      "user": "user92@example.com",
+      "subject": "Holiday Closure",
+      "content": "Our office will be closed for the holidays.",
+      "tag": "Holiday",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-20T19:00:00Z",
+      "entry_box": "promotions"
+    },
+    {
+      "id": 93,
+      "user": "user93@example.com",
+      "subject": "Monthly Newsletter",
+      "content": "Check out our monthly newsletter.",
+      "tag": "Newsletter",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-20T20:00:00Z",
+      "entry_box": "social"
+    },
+    {
+      "id": 94,
+      "user": "user94@example.com",
+      "subject": "Service Disruption",
+      "content": "We are experiencing a temporary service disruption.",
+      "tag": "Disruption",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-20T21:00:00Z",
+      "entry_box": "updates"
+    },
+    {
+      "id": 95,
+      "user": "user95@example.com",
+      "subject": "Order Confirmation",
+      "content": "Your order has been confirmed.",
+      "tag": "Order",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-20T22:00:00Z",
+      "entry_box": "forum"
+    },
+    {
+      "id": 96,
+      "user": "user96@example.com",
+      "subject": "Account Alert",
+      "content": "Suspicious activity detected on your account.",
+      "tag": "Alert",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-20T23:00:00Z",
+      "entry_box": "primary"
+    },
+    {
+      "id": 97,
+      "user": "user97@example.com",
+      "subject": "Job Offer",
+      "content": "We are excited to offer you a job position.",
+      "tag": "Job",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-21T08:00:00Z",
+      "entry_box": "promotions"
+    },
+    {
+      "id": 98,
+      "user": "user98@example.com",
+      "subject": "Payment Received",
+      "content": "We have received your payment.",
+      "tag": "Payment",
+      "favorite": true,
+      "read_state": true,
+      "horary": "2023-07-21T09:00:00Z",
+      "entry_box": "social"
+    },
+    {
+      "id": 99,
+      "user": "user99@example.com",
+      "subject": "System Notification",
+      "content": "Our system will undergo maintenance tonight.",
+      "tag": "Notification",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-21T10:00:00Z",
+      "entry_box": "updates"
+    },
+    {
+      "id": 100,
+      "user": "user100@example.com",
+      "subject": "Event Reminder",
+      "content": "Don't forget to attend our event tomorrow.",
+      "tag": "Event",
+      "favorite": false,
+      "read_state": false,
+      "horary": "2023-07-21T11:00:00Z",
+      "entry_box": "forum"
     }
   ]
 }

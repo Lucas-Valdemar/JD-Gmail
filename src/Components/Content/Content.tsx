@@ -1,14 +1,13 @@
 import React from "react";
-import Emails from "./Emails/Emails";
+import TabBar from "./TabBar/TabBar";
 import ActionBar from "./ActionBar/ActionBar";
 
 
 function Content() {
-  return (
-    <div className="flex flex-col w-full">
+  return (<>
     <ActionBar/>
-    <Emails/>
-    </div>
+    <TabBar />
+    </>
   )
   
 

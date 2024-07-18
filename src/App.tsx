@@ -2,16 +2,18 @@ import React, { useEffect, useState } from 'react';
 import api from '../services/api.ts'
 
 import Sidebar from './Components/Root/Menu/Sidebar.tsx';
-import Content from './Components/Root/Menu/Content/Content.tsx';
+import AppsSideBar from './Components/Root/Menu/AppsSideBar.tsx';
+import Content from './Components/Content/Content.tsx';
 
 function App() {
 
-  const [emails, setEmails] = useState([])
-
+  /* Sidebar states */
   const [sidebar, setSidebar] = useState(true)
   const [sidebarState, setSidebarState] = useState(false)
-
+  
   /* Fetch Emails */
+  const [emails, setEmails] = useState([])
+
   async function fetchEmails() {
     try {
       const response = await api.get('/')
@@ -29,7 +31,7 @@ function App() {
 
 
   return (
-    <>
+    <div className='bg-slate-100'>
       <div className='h-20 bg-slate-100 flex justify-center items-center flex-col'>
         <h2>Aqui vai o topbar, depois, vem o conteúdo</h2> 
         <button className='bg-green-600' onClick={()=>{setSidebar(true), setSidebarState(true)}}>ativa sidebarr</button>
@@ -43,15 +45,18 @@ function App() {
           <Sidebar sidebar={sidebar} emails={emails} />
         
         </div>
-      
-        <Content/>
 
-        <div className="otherApps w-20 bg-red-600 h-full">
-          aqui vem a barra da direita
+        <div className="content bg-white w-screen rounded-2xl pt-7">
+          <Content />
+        </div>
+
+        <div className="otherApps w-20 bg-slate-100 h-full pt-12 px-2">
+          <AppsSideBar />
         </div>
       </div>
 
-    </>
+
+    </div>
   )
 }
 
