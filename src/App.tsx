@@ -5,6 +5,8 @@ import Sidebar from './Components/Root/Menu/Sidebar.tsx';
 import AppsSideBar from './Components/Root/Menu/AppsSideBar.tsx';
 import Content from './Components/Content/Content.tsx';
 
+import Navigation from './Components/Navigation/Navigation.tsx';
+
 function App() {
 
   /* Sidebar states */
@@ -33,7 +35,7 @@ function App() {
   return (
     <div className='bg-slate-100'>
       <div className='h-20 bg-slate-100 flex justify-center items-center flex-col'>
-        <h2>Aqui vai o topbar, depois, vem o conteúdo</h2> 
+        <Navigation/>
         <button className='bg-green-600' onClick={()=>{setSidebar(true), setSidebarState(true)}}>ativa sidebarr</button>
         <button className='bg-red-600' onClick={()=>{setSidebar(false), setSidebarState(false)}}>desativa sidebarr</button>
         
