@@ -1,15 +1,37 @@
 import React from 'react'
 import InteractiveItens from './InteractiveItens/InteractiveItens'
+import { parseISO, format } from 'date-fns';
+import { ptBR } from 'date-fns/locale';
+import { useEmails, EmailInterface } from '../../../../hooks/useEmails'
+
+const Email: React.FC<EmailInterface> = ({ id, user, subject, content, tag, favorite, read_state, horary, entry_box }) => {
+
+  const bgColor = read_state ? "bg-[#F2F6FC]" : "bg-[#ffffff]";
+  const textColor = read_state ? "text-[#8B8585] font-medium" : "text-[#1C1B1F] font-bold";
+  
+  const date = parseISO(horary);
+  const now = new Date();
+  let formattedDate;
+  if (date.getFullYear() === now.getFullYear()) {
+    formattedDate = format(date, "d 'de' MMM.", { locale: ptBR });
+  } else {
+    formattedDate = format(date, 'dd/MM/yyyy', { locale: ptBR });
+  }
 
 
-const Email = () => {
-  const senderPlaceholder = "zequinha_destruidor"
-  const emailTitlePlaceholder = "Novo Modo: ENXAME"
-  const emailContentPlaceholder = "Para jogar o novo modo Enxame do LoL, abra o League of Legends, clique em “Jogar” e depois selecione o “Modo Enxame”, geralmente o último da lista. Feito isso, basta clicar em encontrar partida ou convidar amigos."
+
   return (
-    <div className='flex justify-start border-solid border-[1px] border-[#ECEFF1] w-full h-[3.75rem] gap-[255px]'>
-    <InteractiveItens sender={senderPlaceholder}/>
-    <div className='flex items-center w-full'> <div className='w-[15%]'><p className='truncate w-[80%]'>{emailTitlePlaceholder}</p></div> <div className='w-full'><p className='w-full truncate'>{emailContentPlaceholder}</p></div></div>
+    <div className={`items-center flex justify-start border-solid border-[1px] border-[#ECEFF1] w-full h-[3.75rem] gap-[13%] pl-[0.6%] pr-[1.4%] ${bgColor}`}>
+      <InteractiveItens sender={user} read_state={read_state}/>
+      <div className={`flex items-center w-full `}>
+        <div className='w-[22%]'>
+          <p className={`truncate w-full ${textColor}`}>{subject}</p>
+        </div>
+        <div className='w-[80%]'>
+          <p className='w-full truncate'>{content}</p>
+        </div>
+      </div>
+      <div ><p className={`${textColor}`} >{formattedDate}</p></div>
     </div>
   )
 }
