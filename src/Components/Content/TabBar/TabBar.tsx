@@ -9,6 +9,9 @@ import Box from "@mui/material/Box";
 import tabs from "./Components/tabs";
 import FullWidthTab from "../TabBar/Components/FullWidthTab";
 import a11yProps from "../TabBar/Components/a11yProps";
+import Emails from "../Emails/Emails"
+
+
 
 export default function TabBar() {
   const theme = useTheme();
@@ -74,29 +77,15 @@ export default function TabBar() {
           ))}
         </Tabs>
       </AppBar>
+      
+    
+    <FullWidthTab value={value} index={0} dir={theme.direction}><Emails entryBoxToFetch={"primary"}/> </FullWidthTab>
+    <FullWidthTab value={value} index={1} dir={theme.direction}><Emails entryBoxToFetch={"promotions"}/> </FullWidthTab>
+    <FullWidthTab value={value} index={2} dir={theme.direction}><Emails entryBoxToFetch={"social"}/> </FullWidthTab>
+    <FullWidthTab value={value} index={3} dir={theme.direction}><Emails entryBoxToFetch={"updates"}/> </FullWidthTab>
+    <FullWidthTab value={value} index={4} dir={theme.direction}><Emails entryBoxToFetch={"forum"}/> </FullWidthTab>
+     
 
-      {tabs.map((tab) => (
-        <FullWidthTab
-          value={value}
-          key={tab.index}
-          index={tab.index}
-          dir={theme.direction}
-        >
-          <span
-            style={{
-              background:
-                tab.index == 0 || tab.index == 2
-                  ? colors.blue[500]
-                  : tab.index == 1 || tab.index == 4
-                  ? colors.green[500]
-                  : colors.orange[800],
-            }}
-            className="h-screen flex flex-col"
-          >
-            {tab.title} emails
-          </span>
-        </FullWidthTab>
-      ))}
     </Box>
   );
 }

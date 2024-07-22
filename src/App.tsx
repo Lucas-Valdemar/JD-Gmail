@@ -36,7 +36,7 @@ function App() {
         <div className={sidebar ? 'bg-slate-100 w-60 transition-all' : 'bg-slate-100 w-20 transition-all hover:w-60'} onMouseEnter={() => { setSidebar(true); }} onMouseLeave={() => { sidebarState === false ? setSidebar(false) : setSidebar(true); }}>
           <Sidebar sidebar={sidebar} emails={emails} />
         </div>
-        <div className="content bg-white w-screen rounded-2xl pt-7">
+        <div className="content bg-white w-full rounded-2xl pt-7">
           <Content />
         </div>
         <div className="otherApps w-20 bg-slate-100 h-full pt-12 px-2">

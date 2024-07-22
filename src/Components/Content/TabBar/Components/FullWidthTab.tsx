@@ -23,9 +23,9 @@ export default function FullWidthTab(props: FullWidthTabProps) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
+        <div className="h-[79vh]">
+          {children}
+        </div>
       )}
     </div>
   );
