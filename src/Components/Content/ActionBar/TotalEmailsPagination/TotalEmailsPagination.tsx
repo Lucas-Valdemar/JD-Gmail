@@ -7,7 +7,7 @@ import { useSelectedEmails } from '../../Emails/Email/InteractiveItens/SelectedE
 const TotalEmailsPagination = () => {
     const enableButton = grey[800]
     const disableButton = grey[500]
-    const [showing, setShowing] = useState(50);
+    const [showing, setShowing] = useState(0);
 
     const { allEmailIds } = useSelectedEmails();
 
@@ -16,7 +16,7 @@ const TotalEmailsPagination = () => {
     
     useEffect( () => {
             if (totalObjects >= showing){
-                return
+                setShowing(20)
             } else {
                 setShowing(totalObjects)
             }

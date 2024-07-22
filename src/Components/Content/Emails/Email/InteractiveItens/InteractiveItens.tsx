@@ -34,6 +34,7 @@ const InteractiveItens: React.FC<InteractiveItensProps> = ({
   const [isStarFilled, setIsStarFilled] = useState(false);
   const [isLabelFilled, setIsLabelFilled] = useState(false);
   
+  
   return (
     <div className="flex gap-[9px] items-center w-full max-w-[23%] mr-[3%]">
       <div onClick={setIsCheckBoxChecked}>
@@ -47,9 +48,17 @@ const InteractiveItens: React.FC<InteractiveItensProps> = ({
           : <StarIcon sx={{ color: hoverState ? iconsColorhover : iconsColor, width: "20px" }} />}
       </div>
       <div onClick={() => setIsLabelFilled(!isLabelFilled)}>
-        {isLabelFilled 
-          ? <LabelFilledIcon sx={{ color: yellowColor, width: "20px" }} />
-          : <LabelIcon sx={{ color: hoverState ? iconsColorhover : iconsColor, width: "20px" }} />}
+          {isLabelFilled 
+            ? <LabelFilledIcon sx={{ color: yellowColor, width: "20px" }} />
+            : <LabelIcon 
+                sx={{ 
+                  color: hoverState ? iconsColorhover : iconsColor, 
+                  width: "20px", 
+                  '& path[opacity="0.1"]': {
+                    opacity: 0,
+                  }, 
+                }} 
+              />}
       </div>
       <p className={`font-bold text-[#1C1B1F] text-[1.3125rem] w-full truncate ${fontWeight}`}>{sender}</p>
     </div>
