@@ -10,27 +10,27 @@ import React from "react";
 
   const tabs = [
     {
-      title: "Primary",
+      title: "primary",
       icon: <InboxOutlined />,
       index: 0,
     },
     {
-      title: "Promotions",
+      title: "promotions",
       icon: <SellOutlined />,
       index: 1,
     },
     {
-      title: "Social",
+      title: "social",
       icon: <GroupOutlined />,
       index: 2,
     },
     {
-      title: "Updates",
+      title: "updates",
       icon: <InfoOutlined />,
       index: 3,
     },
     {
-      title: "Forum",
+      title: "forum",
       icon: <ForumOutlined />,
       index: 4,
     },
