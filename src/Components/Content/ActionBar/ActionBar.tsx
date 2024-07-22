@@ -6,7 +6,7 @@ const ActionBar = () => {
     const placeholder = 50
 
   return (
-    <div className='flex justify-between'><ButtonsMenu/><TotalEmailsPagination/></div>
+    <div className='flex justify-between mx-6 mr'><ButtonsMenu/><TotalEmailsPagination/></div>
   )
 }
 

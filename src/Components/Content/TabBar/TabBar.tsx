@@ -11,6 +11,8 @@ import FullWidthTab from "../TabBar/Components/FullWidthTab";
 import a11yProps from "../TabBar/Components/a11yProps";
 import Emails from "../Emails/Emails"
 
+
+
 export default function TabBar() {
   const theme = useTheme();
   const [value, setValue] = React.useState(0);
@@ -75,12 +77,14 @@ export default function TabBar() {
           ))}
         </Tabs>
       </AppBar>
-
-    <FullWidthTab value={value} key={0} index={0} dir={theme.direction}><Emails entryBoxToFetch={"primary"}/> </FullWidthTab>
-    <FullWidthTab value={value} key={1} index={1} dir={theme.direction}><Emails entryBoxToFetch={"promotions"}/> </FullWidthTab>
-    <FullWidthTab value={value} key={1} index={2} dir={theme.direction}><Emails entryBoxToFetch={"social"}/> </FullWidthTab>
-    <FullWidthTab value={value} key={1} index={3} dir={theme.direction}><Emails entryBoxToFetch={"updates"}/> </FullWidthTab>
-    <FullWidthTab value={value} key={1} index={4} dir={theme.direction}><Emails entryBoxToFetch={"forum"}/> </FullWidthTab>
+      
+    
+    <FullWidthTab value={value} index={0} dir={theme.direction}><Emails entryBoxToFetch={"primary"}/> </FullWidthTab>
+    <FullWidthTab value={value} index={1} dir={theme.direction}><Emails entryBoxToFetch={"promotions"}/> </FullWidthTab>
+    <FullWidthTab value={value} index={2} dir={theme.direction}><Emails entryBoxToFetch={"social"}/> </FullWidthTab>
+    <FullWidthTab value={value} index={3} dir={theme.direction}><Emails entryBoxToFetch={"updates"}/> </FullWidthTab>
+    <FullWidthTab value={value} index={4} dir={theme.direction}><Emails entryBoxToFetch={"forum"}/> </FullWidthTab>
+     
 
     </Box>
   );

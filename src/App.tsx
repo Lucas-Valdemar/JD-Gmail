@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className='bg-slate-100'>
-      <div className='h-20 bg-slate-100 flex justify-center items-center flex-col'>
+      <div className='h-20 bg-slate-100 flex justify-center items-center flex-col w-screen'>
         <h2>Aqui vai o topbar, depois, vem o conteúdo</h2> 
         <button className='bg-green-600' onClick={()=>{setSidebar(true), setSidebarState(true)}}>ativa sidebarr</button>
         <button className='bg-red-600' onClick={()=>{setSidebar(false), setSidebarState(false)}}>desativa sidebarr</button>
@@ -46,7 +46,7 @@ function App() {
         
         </div>
 
-        <div className="content bg-white w-screen rounded-2xl pt-7">
+        <div className="content bg-white w-full rounded-2xl pt-7">
           <Content />
         </div>
 
