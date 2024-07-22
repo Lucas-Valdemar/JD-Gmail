@@ -7,16 +7,17 @@ interface SelectedEmailsContextProps {
   clearSelection: () => void;
   toggleAllEmailsSelection: (emails: number[]) => void;
   setAllEmailIds: (ids: number[]) => void; 
-  sortType: 'date' | 'user';  // Adicione isto
-  toggleSortType: () => void;  // Adicione isto
+  sortType: 'date' | 'user' | 'read';  
+  setSortType: (type: 'date' | 'user' | 'read') => void;
+  toggleSortType: () => void;  
 }
 
 const SelectedEmailsContext = createContext<SelectedEmailsContextProps | undefined>(undefined);
 
 export const SelectedEmailsProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [selectedEmails, setSelectedEmails] = useState<number[]>([]);
-  const [allEmailIds, setAllEmailIds] = useState<number[]>([]); 
-  const [sortType, setSortType] = useState<'date' | 'user'>('user');  // Adicione isto
+  const [allEmailIds, setAllEmailIds] = useState<number[]>([]);
+  const [sortType, setSortType] = useState<'date' | 'user' | 'read'>('date'); 
 
 
   const toggleEmailSelection = (id: number) => {
@@ -39,8 +40,8 @@ export const SelectedEmailsProvider: React.FC<{ children: ReactNode }> = ({ chil
     );
   };
 
-  const toggleSortType = () => {  // Adicione isto
-    setSortType(prevSortType => (prevSortType === 'user' ? 'date' : 'user'));
+  const toggleSortType = () => {
+    setSortType(prevSortType => (prevSortType === 'user' ? 'date' : prevSortType === 'date' ? 'read' : 'user'));
   };
 
 
@@ -52,8 +53,9 @@ export const SelectedEmailsProvider: React.FC<{ children: ReactNode }> = ({ chil
       clearSelection, 
       toggleAllEmailsSelection,
       setAllEmailIds, 
-      sortType, // Adicione isto
-      toggleSortType // Adicione isto
+      sortType, 
+      setSortType,
+      toggleSortType 
     }}>
       {children}
     </SelectedEmailsContext.Provider>
