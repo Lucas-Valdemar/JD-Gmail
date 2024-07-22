@@ -7,26 +7,23 @@ import { useSelectedEmails } from '../../Emails/Email/InteractiveItens/SelectedE
 const TotalEmailsPagination = () => {
     const enableButton = grey[800]
     const disableButton = grey[500]
-    const [showing, setShowing] = useState(25);
+    const [showing, setShowing] = useState(50);
 
-    //context api
     const { allEmailIds } = useSelectedEmails();
 
-    const totalSum = Array.isArray(allEmailIds)
-        ? allEmailIds.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
-        : 0;
+    const totalObjects = Array.isArray(allEmailIds) ? allEmailIds.length : 0;
 
     
     useEffect( () => {
-            if (totalSum >= 20){
-                setShowing(20)
+            if (totalObjects >= showing){
+                return
             } else {
-                setShowing(totalSum)
+                setShowing(totalObjects)
             }
-        }, [totalSum])
+        }, [totalObjects])
     
   return (
-    <div className='flex gap-7'>{`1-${showing} of ${totalSum}`}<div className='flex'><ArrowLeftIcon sx={{color:disableButton}}/><ArrowRightIcon sx={{color:enableButton}}/></div></div>
+    <div className='flex gap-7'>{`1-${showing} of ${totalObjects}`}<div className='flex'><ArrowLeftIcon sx={{color:disableButton}}/><ArrowRightIcon sx={{color:enableButton}}/></div></div>
   )
 }
 
