@@ -976,7 +976,7 @@
       "tag": "Security",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-20T16:00:00Z",
+      "horary": "2024-07-20T16:00:00Z",
       "entry_box": "updates"
     },
     {
@@ -987,7 +987,7 @@
       "tag": "Community",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-20T17:00:00Z",
+      "horary": "2024-07-20T17:00:00Z",
       "entry_box": "forum"
     },
     {
@@ -998,7 +998,7 @@
       "tag": "Account",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-20T18:00:00Z",
+      "horary": "2024-07-20T18:00:00Z",
       "entry_box": "primary"
     },
     {
@@ -1009,7 +1009,7 @@
       "tag": "Holiday",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-20T19:00:00Z",
+      "horary": "2024-07-20T19:00:00Z",
       "entry_box": "promotions"
     },
     {
@@ -1020,7 +1020,7 @@
       "tag": "Newsletter",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-20T20:00:00Z",
+      "horary": "2024-07-20T20:00:00Z",
       "entry_box": "social"
     },
     {
@@ -1031,7 +1031,7 @@
       "tag": "Disruption",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-20T21:00:00Z",
+      "horary": "2024-07-20T21:00:00Z",
       "entry_box": "updates"
     },
     {
@@ -1042,7 +1042,7 @@
       "tag": "Order",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-20T22:00:00Z",
+      "horary": "2024-07-20T22:00:00Z",
       "entry_box": "forum"
     },
     {
@@ -1053,7 +1053,7 @@
       "tag": "Alert",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-20T23:00:00Z",
+      "horary": "2024-07-20T23:00:00Z",
       "entry_box": "primary"
     },
     {
@@ -1064,7 +1064,7 @@
       "tag": "Job",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-21T08:00:00Z",
+      "horary": "2024-07-21T08:00:00Z",
       "entry_box": "promotions"
     },
     {
@@ -1075,7 +1075,7 @@
       "tag": "Payment",
       "favorite": true,
       "read_state": true,
-      "horary": "2023-07-21T09:00:00Z",
+      "horary": "2024-07-21T09:00:00Z",
       "entry_box": "social"
     },
     {
@@ -1086,7 +1086,7 @@
       "tag": "Notification",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-21T10:00:00Z",
+      "horary": "2024-07-21T10:00:00Z",
       "entry_box": "updates"
     },
     {
@@ -1097,7 +1097,7 @@
       "tag": "Event",
       "favorite": false,
       "read_state": false,
-      "horary": "2023-07-21T11:00:00Z",
+      "horary": "2024-07-21T11:00:00Z",
       "entry_box": "forum"
     }
   ]
